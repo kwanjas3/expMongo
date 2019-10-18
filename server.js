@@ -382,8 +382,8 @@ app.post("/send", (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "testanalyticsjk@gmail.com", // generated ethereal user
-      pass: "testing123!@#" // generated ethereal password
+      user: "redacted", // generated ethereal user
+      pass: "redacted" // generated ethereal password
     },
     tls: { rejectUnauthorized: false }
   });
