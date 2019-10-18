@@ -16,7 +16,7 @@ let User; // to be defined on new connection (see initialize)
 module.exports.initialize = function () {
     return new Promise(function (resolve, reject) {
 
-        let db = mongoose.createConnection("mongodb://admin:123qwe@ds119250.mlab.com:19250/jklogins");
+        let db = mongoose.createConnection("mongodb://redacted:123qwe@ds119250.mlab.com:19250/redacted");
 
         db.on('error', (err) => {
             reject(err);
